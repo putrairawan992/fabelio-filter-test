@@ -8,8 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Online
  [Fabelio Putra Test](https://putrairawan992.github.io/fabelio-filter-test/).
- 
+
 ## Script Local Accsess
-1. `npm run dev` start
-2. `npm run lint` run eslint
-3. `npm run build` create dist file
+1. `npm install`
+2. `npm start` start
