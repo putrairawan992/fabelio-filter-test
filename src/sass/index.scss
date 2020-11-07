@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+@import './variable';
+@import './layout';
+@import './header';
+@import './product-card';
+@import './form-filter';
+@import './search-input';
+@import './dropdown-check-list';

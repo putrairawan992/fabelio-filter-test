@@ -1,0 +1,23 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -$gutter;
+  margin-left: -$gutter;
+}
+
+.col-6 {
+  max-width: 50%;
+  box-sizing: border-box;
+  flex: 0 0 50%;
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
