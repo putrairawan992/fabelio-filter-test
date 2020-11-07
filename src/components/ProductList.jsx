@@ -26,7 +26,7 @@ const ProductList = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await axios(
-        'http://www.mocky.io/v2/5c9105cb330000112b649af8',
+        'https://www.mocky.io/v2/5c9105cb330000112b649af8',
       );
 
       const searchResults = response.data.products.filter(item =>
